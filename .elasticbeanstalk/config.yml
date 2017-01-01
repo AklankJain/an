@@ -1,0 +1,14 @@
+branch-defaults:
+  master:
+    environment: another-env
+environment-defaults:
+  another-env:
+    branch: null
+    repository: null
+global:
+  application_name: another
+  default_ec2_keyname: aws-eb
+  default_platform: python2.7
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
